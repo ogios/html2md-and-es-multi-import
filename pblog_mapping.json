@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "title": {
+        "type": "text",
+        "term_vector": "with_positions_offsets"
+      },
+      "content": {
+        "type": "text",
+        "term_vector": "with_positions_offsets"
+      }
+    }
+  }
+}
